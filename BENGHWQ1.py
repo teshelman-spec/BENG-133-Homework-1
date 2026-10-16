@@ -1,6 +1,6 @@
 # Q1: Taylor Approximation
 
-#part a
+# Imports
 import numpy as np
 import matplotlib.pyplot as plt
 #part b
@@ -24,7 +24,7 @@ plt.grid(True)
 plt.legend()
 plt.show()
 
-#part d
+# Part d
 h_values = np.array([0.3] + [10.0**(-i) for i in range(1, 17)])
 
 x = 0.3
